@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1000" preserveAspectRatio="xMidYMid slice">
+<defs>
+  <linearGradient id="bg-construct-hackathon.svg" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#E5EFE3"/>
+    <stop offset="1" stop-color="#F2F7EF"/>
+  </linearGradient>
+  <radialGradient id="glow-construct-hackathon.svg" cx="50%" cy="45%" r="60%">
+    <stop offset="0" stop-color="#1F3A2C" stop-opacity=".06"/>
+    <stop offset="1" stop-color="#1F3A2C" stop-opacity="0"/>
+  </radialGradient>
+  <pattern id="dots-construct-hackathon.svg" x="0" y="0" width="24" height="24" patternUnits="userSpaceOnUse">
+    <circle cx="2" cy="2" r=".6" fill="#1F3A2C" opacity=".10"/>
+  </pattern>
+</defs>
+<rect width="800" height="1000" fill="url(#bg-construct-hackathon.svg)"/>
+<rect width="800" height="1000" fill="url(#dots-construct-hackathon.svg)"/>
+<rect width="800" height="1000" fill="url(#glow-construct-hackathon.svg)"/>
+<g fill="none" stroke="#1F3A2C" stroke-width="1.1" opacity=".5">
+          <rect x="175.99999999999997" y="356.0" width="448.00000000000006" height="288.0" rx="2"/>
+          <path d="M 175.99999999999997 460.0 H 624.0"/>
+          <path d="M 256.0 356.0 V 460.0 M 352.0 356.0 V 460.0 M 448.0 356.0 V 460.0 M 544.0 356.0 V 460.0"/>
+          <path d="M 224.0 532.0 L 304.0 612.0 M 576.0 532.0 L 496.0 612.0"/>
+        </g>
+<!-- corner hairlines -->
+<g fill="none" stroke="#1F3A2C" stroke-opacity=".25" stroke-width="1">
+  <path d="M 32 32 H 92 M 32 32 V 92"/>
+  <path d="M 768 32 H 708 M 768 32 V 92"/>
+  <path d="M 32 968 H 92 M 32 968 V 908"/>
+  <path d="M 768 968 H 708 M 768 968 V 908"/>
+</g>
+<!-- centre text -->
+<g font-family="Cormorant Garamond, Georgia, serif" fill="#1F3A2C" text-anchor="middle">
+  <text x="400.0" y="492.0" font-size="42" font-style="italic" font-weight="500">Construct · Newton School of Technology</text>
+  <text x="400.0" y="538.0" font-size="14" letter-spacing="6" font-family="Inter, sans-serif">BEST FRESHER'S TEAM</text>
+</g>
+<!-- bottom caption -->
+<g font-family="Caveat, cursive" fill="#1F3A2C" opacity=".7" text-anchor="middle">
+  <text x="400.0" y="940" font-size="28">drop real image into assets/construct-hackathon.svg</text>
+</g>
+</svg>
